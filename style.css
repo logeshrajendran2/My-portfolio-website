@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container{
+    padding: 50px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+    padding-bottom: 3px;
+}
+.section-one__title{
+    font-size: 50px;
+}
+.section-one__desc{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.section-one__contact{
+    text-decoration: none;
+    background-color: orangered;
+    padding: 2px;
+    color: white;
+    margin-top: 5px;
+}
+.section-two,.section-three,.section-four,.section-five{
+    margin-top: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+    margin-top: 10px;
+}
+.section-five{
+    background-color: black;
+    color: white;
+}
+.section-five__title a{
+color: skyblue;
+}
+.section-three__desc li,.section-four__desc li{
+    list-style: none;
+}
+.section-three__desc li h1,.section-four__desc li h1{
+    font-size: 30px;
+}
+.section-three{
+    display: inline-block;
+    background-color: blue;
+    color: black;
+    vertical-align: top;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.section-four{
+    display: inline-block;
+    color: black;
+    background-color: orangered;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form{
+    margin-top: 10px;
+    vertical-align: top;
+}
+.name,.email{
+    border: none;
+    border-bottom: solid black 1px;
+
+}
+.name,.email,.message,.submit{
+    margin-top: 10px;
+}
+.message{
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+
+}
+.submit{
+    background-color: orangered;
+    border-style:none ;
+    border-radius: 1px;
+    border-color: black;
+    padding: 5px;
+}
